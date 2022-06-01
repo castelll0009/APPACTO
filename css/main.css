@@ -37,7 +37,7 @@ h1{
     flex-direction: row;
     position: relative;
     margin: 200px;
-    margin-bottom: 400px;
+    /*margin-bottom: 400px;*/
     align-items: center;
 }
 .contenedor-nombre img{
