@@ -52,7 +52,7 @@ function ColorearNombre()
             scale=renk[i];
         }
         if (screen.width < 700) {
-            retval=retval+"<span style='font-size: 0.4em; color: #"+scale+"'>"+texticerik.substr(i,1)+"</span>"
+            retval=retval+"<span style='font-size: 0.4em; letter-spacing: -14px; color: #"+scale+"'>"+texticerik.substr(i,1)+"</span>"
         }else{
             retval=retval+"<span style=' color: #"+scale+"'>"+texticerik.substr(i,1)+"</span>"
         }
