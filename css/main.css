@@ -21,7 +21,28 @@ body {
     font-size: 12em;
     font-weight: 900;
 }
+.contenedor-logo{
+  text-align: center;
+  margin: auto;
+  position: relative;
+  max-width: 150px;
+  margin-top: 0px;
+}
+.contenedor-hastag { 
+  
+}
+.pacto-hastag{
+  margin: 50px;
+  margin-top: -200px;
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  color: #a52e94;
 
+}
+.contenedor-logo img{
+  width: 100%;
+}
 h1{
   font-family: 'Gothic A1', sans-serif;  
   font-family: 'Archivo Black', sans-serif;
@@ -244,5 +265,25 @@ footer{
 }
     .contenedor-nombre {        
         margin: 20px;
+    }
+    .contenedor-logo{
+      
+      max-width: 80px;
+      margin-top: 15px;
+    }
+    .contenedor-logo img{
+      width: 100%;
+    }
+    .contenedor-hastag { 
+  
+    }
+    .pacto-hastag{
+      margin: 50px;
+      margin-top: -50px; 
+      font-size: 1em;
+      font-weight: 500;
+      letter-spacing: 0.1px;
+      color: #a52e94;
+    
     }
 }
