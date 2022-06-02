@@ -92,7 +92,7 @@ footer{
   /* padding: 45px 0 20px; */
   font-size: 15px;
   /* line-height: 24px; */
-  color: #737373;
+  color: #ebebeb;
   margin-top: 50px;
 }
 .site-footer hr
@@ -114,7 +114,7 @@ footer{
 }
 .site-footer a
 {
-  color:#737373;
+  color:#ece8e8;
 }
 .site-footer a:hover
 {
