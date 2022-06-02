@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+/* import font Codec Pro black*/
+@font-face {
+  font-family: 'Codec Pro Ultra';
+  src: url('../fonts/CodecPro-Ultra.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+/*
+@font-face {
+  font-family: 'Codec Pro';
+  src: local('Codec Pro Ultra'), local('Codec-Pro-Ultra'),
+      url('CodecPro-Ultra.woff2') format('woff2'),
+      url('CodecPro-Ultra.woff') format('woff'),
+      url('CodecPro-Ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
 body {  
-  font-family: 'Gothic A1', sans-serif;  
+  font-family: 'Gothic A1', sans-serif;    
+  font-family: 'Codec Pro';  
   color: white;
   height: 100vh;
   margin: 0;
   display: grid;
   place-items: center;
 }
+
 .contenedor-todo{  
   display: flex;
   position: relative;
@@ -19,7 +40,13 @@ body {
 }
 .contenedor-nombre h1{
     font-size: 12em;
-    font-weight: 900;
+    font-weight: 900;    
+    font-family: 'Codec Pro Ultra';  
+    font-size: 12em;
+    letter-spacing: -28px;
+    color: #0080008a;
+    margin: 0;
+    padding: 0;  
 }
 .contenedor-logo{
   text-align: center;
@@ -43,14 +70,8 @@ body {
 .contenedor-logo img{
   width: 100%;
 }
-h1{
-  font-family: 'Gothic A1', sans-serif;  
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 12em;
-  letter-spacing: -40px;
-  color: #0080008a;
-  margin: 0;
-  padding: 0;
+h1{  
+  
 }
 .contenedor-nombre{
     display: flex;
@@ -258,10 +279,10 @@ footer{
   }
  .contenedor-nombre img{
   width: 40px;
-    margin-left: -10px;
-    margin-top: 55px;
-    height: 40px;
-    z-index: -1; 
+  margin-left: -10px;
+  margin-top: 5px;
+  height: 40px;
+  z-index: -1;
 }
     .contenedor-nombre {        
         margin: 20px;
