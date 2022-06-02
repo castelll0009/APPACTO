@@ -34,7 +34,7 @@ body {
 .pacto-hastag{
   margin: 50px;
   margin-top: -200px;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 500;
   letter-spacing: 0.1px;
   color: #a52e94;
@@ -280,7 +280,7 @@ footer{
     .pacto-hastag{
       margin: 50px;
       margin-top: -50px; 
-      font-size: 1em;
+      font-size: 0.8em;
       font-weight: 500;
       letter-spacing: 0.1px;
       color: #a52e94;
