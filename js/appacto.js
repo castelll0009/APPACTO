@@ -29,8 +29,7 @@ $(document).ready(function(){
 	$(".input-nombre").keyup(function(){
     
     $(".nombre-pacto").text(ConvertirMayusculas($(".input-nombre").val()));
-    //color para la letra        
-     //$(".nombre-pacto").css("color","rgb(255 156 0 / 73%)");    
+    //color para la letra             
     ColorearNombre();
     CambiarIcono();
 	}); 
