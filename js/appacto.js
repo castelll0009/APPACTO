@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 
 function CambiarIcono(){
-    var arrayIconos= new Array('icono-estudiante.png', 'icono-gym.png','icono-agricultor.png','icono-mujeres.png','icono-interculturalidad.png','logo.png');
+    var arrayIconos= new Array('icono-estudiante.png', 'icono-gym.png','icono-agricultor.png','icono-mujeres.png','icono-interculturalidad.png','logo.png','salud.png','sampedro.png','cafe.png','arte.png','baile.gif');
     var stringRutaIcono =(arrayIconos[getRandomInt(0,arrayIconos.length)]);
     $("#etiqueta-icono").attr("src","imgs/"+stringRutaIcono);
     var etiquetaIcono= $("#etiqueta-icono").html();
