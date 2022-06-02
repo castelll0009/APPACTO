@@ -32,9 +32,19 @@ $(document).ready(function(){
     //color para la letra        
      //$(".nombre-pacto").css("color","rgb(255 156 0 / 73%)");    
     ColorearNombre();
+    CambiarIcono();
 	}); 
 });
 
+function CambiarIcono(){
+    var arrayIconos= new Array('icono-estudiante.png', 'icono-gym.png','icono-agricultor.png','icono-mujeres.png','icono-interculturalidad.png','logo.png');
+    var stringRutaIcono =(arrayIconos[getRandomInt(0,arrayIconos.length)]);
+    $("#etiqueta-icono").attr("src","imgs/"+stringRutaIcono);
+    var etiquetaIcono= $("#etiqueta-icono").html();
+}
+function getRandomInt(min, max) { //mas exluido
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 function ColorearNombre()
 {
    var renk = new Array ('ff9c00c7','1c3587d4','ff1a1fde','00a93fe0','a52e94ed','ff1a1fde','1c3587d4','ff9c00c7');
