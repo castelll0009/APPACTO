@@ -29,14 +29,20 @@ $(document).ready(function(){
 	$(".input-nombre").keyup(function(){
     
     $(".nombre-pacto").text(ConvertirMayusculas($(".input-nombre").val()));
-    //color para la letra             
-    ColorearNombre();
+    
+    //color para la letra
+                     
     CambiarIcono();
+    var cadena =$(".nombre-pacto").text(ConvertirMayusculas($(".input-nombre").val())).text();
+    if(cadena == "VIERNES"){
+      $("#etiqueta-icono").attr("src","imgs/"+"bmo.gif");
+    }
+    ColorearNombre();
 	}); 
 });
 
 function CambiarIcono(){ //cambia iconos
-    var arrayIconos= new Array('icono-estudiante.png', 'icono-gym.png','icono-agricultor.png','icono-mujeres.png','icono-interculturalidad.png','logo.png','salud.png','sampedro.png','cafe.png','arte.png','baile.gif','condor.png','animales.png','colibri.png','turismo.png','pacto-png.gif','mariposa-org.gif','loro.png','atrapa-sueños.png','indio.png','civil.png','programador.png','profesora.png','geografo.png','musico.png','abogado.png','lenguas.png','logo1.png','logo2.png','afro.png');
+    var arrayIconos= new Array('icono-estudiante.png', 'icono-gym.png','icono-agricultor.png','icono-mujeres.png','icono-interculturalidad.png','logo.png','salud.png','sampedro.png','cafe.png','arte.png','baile.gif','condor.png','animales.png','colibri.png','turismo.png','pacto-png.gif','mariposa-org.gif','loro.png','atrapa-sueños.png','indio.png','civil.png','programador.png','profesora.png','geografo.png','musico.png','abogado.png','lenguas.png','logo1.png','logo2.png','afro.png','bmo.gif');
     var stringRutaIcono =(arrayIconos[getRandomInt(0,arrayIconos.length)]); 
     $("#etiqueta-icono").attr("src","imgs/"+stringRutaIcono);
     var etiquetaIcono= $("#etiqueta-icono").html();
