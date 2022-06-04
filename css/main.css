@@ -29,6 +29,13 @@ body {
   display: grid;
   place-items: center;
 }
+.input-nombre{
+  border-radius: 20px;
+    border: 1px solid #80808069;
+    border-color: #808080a6;
+    padding: 5px;
+    padding-left: 10px;
+}
 
 .contenedor-todo{  
   display: flex;
@@ -84,7 +91,7 @@ h1{
 }
 .contenedor-nombre img{
     width: 100px;
-    margin-left: -10px;
+    margin-left: 20px;
     margin-top: -80px;
     height: 100px;
     z-index: -1;
@@ -279,7 +286,7 @@ footer{
   }
  .contenedor-nombre img{
   width: 40px;
-  margin-left: -10px;
+  margin-left: 10px;
   margin-top: 5px;
   height: 40px;
   z-index: -1;
