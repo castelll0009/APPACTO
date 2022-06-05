@@ -56,9 +56,17 @@ body {
   font-size: 12em;
   letter-spacing: -28px;
   color: #0080008a;
-  line-height: 30px;
-  margin: 0;
+  line-height: 0.8em;
+  margin: 0;  
   padding: 0;
+}
+.contenedor-hastag {   
+
+}
+.nombre-imagen{
+display: flex;
+flex-direction: row;
+margin-bottom: 25px;
 }
 .contenedor-logo{
   text-align: center;
@@ -67,16 +75,14 @@ body {
   max-width: 150px;
   margin-top: 0px;
 }
-.contenedor-hastag { 
-  margin-top: 40px;
 
-}
 .pacto-hastag{
   margin: 50px;
   margin-top: -200px;
   font-size: 1.6em;
   font-weight: 500;
   letter-spacing: 0.1px;
+  display: inline-block;
   color: #a52e94;
 
 }
@@ -94,11 +100,12 @@ h1{
     margin: 200px;
     /*margin-bottom: 400px;*/    
     align-items: center;
+    flex-direction: column;
 }
 .contenedor-nombre img{
     width: 100px;
     margin-left: 20px;
-    margin-top: -80px;
+    margin-top: -50px;
     height: 100px;
     z-index: -1;
 }
@@ -318,6 +325,9 @@ footer{
 .contenedor-todo{
   margin-bottom: 100px;
   margin-top: 180px;
+}
+.contenedor-nombre h1{
+  line-height: 25px;
 }
     .contenedor-nombre {        
         margin: 20px;
