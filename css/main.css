@@ -43,17 +43,22 @@ body {
   top: 0;
   flex-direction: column;
   text-align: center;
-  /*margin-bottom: 200px;*/
+  margin-bottom: 200px;
+  margin-top: 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .contenedor-nombre h1{
-    font-size: 12em;
-    font-weight: 900;    
-    font-family: 'Codec Pro Ultra' ;  
-    font-size: 12em;
-    letter-spacing: -28px;
-    color: #0080008a;
-    margin: 0;
-    padding: 0;  
+  font-size: 12em;
+  font-weight: 900;
+  font-family: 'Codec Pro Ultra';
+  font-size: 12em;
+  letter-spacing: -28px;
+  color: #0080008a;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
 .contenedor-logo{
   text-align: center;
@@ -63,7 +68,8 @@ body {
   margin-top: 0px;
 }
 .contenedor-hastag { 
-  
+  margin-top: 40px;
+
 }
 .pacto-hastag{
   margin: 50px;
@@ -86,7 +92,7 @@ h1{
     flex-direction: row;
     position: relative;
     margin: 200px;
-    /*margin-bottom: 400px;*/
+    /*margin-bottom: 400px;*/    
     align-items: center;
 }
 .contenedor-nombre img{
@@ -96,12 +102,30 @@ h1{
     height: 100px;
     z-index: -1;
 }
-.input-nombre{
-  margin-top: 180px;
+.cont-instruciones{
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.input-nombre{  
+  /*margin-top: 180px;*/
+  top: 10px;
+  margin-top: 0px;
   align-self: center;
   width: 200px;
   font-size: 20px;
   z-index: 2;
+}
+
+.cont-instruciones p {
+  padding-top: 5px;
+  color: rgb(158, 158, 158);
+  position: relative;
+  display: inline-block; 
+  line-height: 1px;
+  font-size: 10px; 
 }
 
 
@@ -291,8 +315,13 @@ footer{
   height: 40px;
   z-index: -1;
 }
+.contenedor-todo{
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
     .contenedor-nombre {        
         margin: 20px;
+        
     }
     .contenedor-logo{
       
