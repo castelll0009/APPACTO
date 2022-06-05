@@ -66,7 +66,7 @@ body {
 .nombre-imagen{
 display: flex;
 flex-direction: row;
-margin-bottom: 25px;
+margin-bottom: 0px;
 }
 .contenedor-logo{
   text-align: center;
@@ -76,14 +76,14 @@ margin-bottom: 25px;
   margin-top: 0px;
 }
 
-.pacto-hastag{
-  margin: 50px;
-  margin-top: -200px;
+.pacto-hastag{  
+  
   font-size: 1.6em;
   font-weight: 500;
   letter-spacing: 0.1px;
   display: inline-block;
   color: #a52e94;
+  margin: 0;
 
 }
 .contenedor-logo img{
@@ -109,9 +109,8 @@ h1{
     height: 100px;
     z-index: -1;
 }
-.cont-instruciones{
-  position: absolute;
-  top: 10px;
+.cont-instruciones{  
+  margin-top: 10px;  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -324,7 +323,7 @@ footer{
 }
 .contenedor-todo{
   margin-bottom: 100px;
-  margin-top: 180px;
+  margin-top: 150px;
 }
 .contenedor-nombre h1{
   line-height: 25px;
@@ -344,9 +343,11 @@ footer{
     .contenedor-hastag { 
   
     }
-    .pacto-hastag{
-      margin: 50px;
-      margin-top: -50px; 
+    .nombre-imagen{
+      
+      margin-bottom: 10px;
+      }
+    .pacto-hastag{         
       font-size: 0.8em;
       font-weight: 500;
       letter-spacing: 0.1px;
