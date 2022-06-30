@@ -37,6 +37,9 @@ $(document).ready(function(){
     if(cadena == "VIERNES"){
       $("#etiqueta-icono").attr("src","imgs/"+"bmo.gif");
     }
+    if(cadena == "HAYBARETOSKIS"){
+      $("#etiqueta-icono").attr("src","imgs/"+"weed-icon.png");
+    }
     ColorearNombre();
 	}); 
 });
