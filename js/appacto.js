@@ -37,7 +37,7 @@ $(document).ready(function(){
     if(cadena == "VIERNES"){
       $("#etiqueta-icono").attr("src","imgs/"+"bmo.gif");
     }
-    if(cadena == "HAYBARETOSKIS"){
+    if(cadena == "HAY BARETOSKIS"){
       $("#etiqueta-icono").attr("src","imgs/"+"weed-icon.png");
     }
     ColorearNombre();
